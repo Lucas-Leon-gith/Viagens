@@ -1,0 +1,25 @@
+.hero-img {
+  background-image: url("../Assets/Hero-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+}
+@media screen and (min-width: 768px) {
+  .hero-img {
+    background-image: url("../Assets/hero-tablet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 620px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    background-image: url("../Assets/hero-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 620px;
+  }
+}
