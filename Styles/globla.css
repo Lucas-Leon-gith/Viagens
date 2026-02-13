@@ -21,7 +21,7 @@ button {
   --tertiary-color: #000000;
 
   --prymari-color: #8f0101;
-  --secondary-color: #b81515;
+  --secondary-color-red: #b81515;
 
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
@@ -30,4 +30,7 @@ button {
   --title-Weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
+}
+body {
+  font-family: var(--font-family-primary);
 }
