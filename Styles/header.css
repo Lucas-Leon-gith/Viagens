@@ -30,10 +30,35 @@ nav {
 .list-links {
   list-style: none;
 }
+.list-links li {
+  margin: 16px;
+}
+
 .list-links li a {
   color: var(--secondary-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 23px;
 }
-.list-links li {
-  margin: 16px;
+
+@media screen and (min-width: 768px) {
+  .navegation-menu {
+    margin-top: 0px;
+    width: 500px;
+  }
+  .navegation-menu label {
+    display: none;
+  }
+  .navegation-menu nav {
+    display: block;
+  }
+  .navegation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  .navegation-menu ul li {
+    margin: 0;
+  }
 }
